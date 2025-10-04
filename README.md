@@ -1,31 +1,39 @@
 # Data-Analyst-Internship-NullClass
 
-DataAnalysts-internship-NULLCLASS
-📊 Google Play Store Analytics – Internship Project
-📘 Overview
+# 📊 Google Play Store Analytics – Internship Project
+##### 📘 Overview
 This project is part of my internship tasks, building on the Google Play Store dataset. The goal was to implement advanced analytics and visualization features through Python (Pandas, Plotly) and Jupyter Notebook.
 
 Each task applies specific business rules, filters, translations, and time-based display conditions for dashboards.
 
-📂 Repository Structure
-📁 Google-PlayStore-Analytics
-┣ 📄 Task1_Grouped_Bar_Chart.ipynb
-┣ 📄 Task2_Choropleth_Map.ipynb
-┣ 📄 Task3_Dual_Axis_Chart.ipynb
-┣ 📄 Task4_Time_Series_Line_Chart.ipynb
-┣ 📄 Task5_Bubble_Chart.ipynb
-┣ 📄 Task6_Stacked_Area_Chart.ipynb
-┣ 📄 README.md
-┣ 📄Raw data csv files
-┗ 📂 screenshots/
+### 📂 Repository Structure <br>
+📂 google-playstore-analytics/ <br>
+│ <br>
+├── dashboard.html <br>
+├── Datasets <br>
+├── Charts <br>
+├── html_outputs/ <br>
+│   ├── task1.html <br>
+│   ├── task2.html <br>
+│   ├── task3.html <br>
+│   ├── task4.html <br>
+│   ├── task5.html <br>
+│   └── task6.html <br>
+├── Task1_GroupedBarChart.ipynb <br>
+├── Task2_ChoroplethMap.ipynb <br>
+├── Task3_DualAxisChart.ipynb <br>
+├── Task4_TimeSeries.ipynb <br>
+├── Task5_BubbleChart.ipynb <br>
+├── Task6_StackedAreaChart.ipynb <br>
+└── README.md <br>
 
 Dataset Source
 Dataset is provided by company
-you can download it from here: Google play store dataset:https://github.com/Aarti07-spec/DA-internship-NULLCLASS/blob/main/Play%20Store%20Data.csv
-Users Review: https://github.com/Aarti07-spec/DA-internship-NULLCLASS/blob/main/User%20Reviews.csv
+you can download it from here: https://github.com/Aarti07-spec/Data-Analyst-Internship-NullClass/tree/main/Datasets
 
-✅ Tasks Implemented
-Task 1 – Grouped Bar Chart
+
+## ✅ Tasks Implemented
+#### Task 1 – Grouped Bar Chart
 Compare average rating and total reviews for top 10 app categories (by installs).
 
 Filters:
@@ -38,7 +46,7 @@ Last updated month = January.
 
 Graph visible only between 3 PM – 5 PM IST.
 
-Task 2 – Choropleth Map
+#### Task 2 – Choropleth Map
 Interactive Choropleth map showing global installs by category.
 
 Filters:
@@ -51,7 +59,7 @@ Exclude categories starting with “A,” “C,” “G,” or “S.”
 
 Graph visible only between 6 PM – 8 PM IST.
 
-Task 3 – Dual-Axis Chart
+#### Task 3 – Dual-Axis Chart
 Compare average installs vs. revenue for free vs. paid apps.
 
 Filters:
@@ -70,7 +78,7 @@ App name ≤ 30 characters.
 
 Graph visible only between 1 PM – 2 PM IST.
 
-Task 4 – Time Series Line Chart
+#### Task 4 – Time Series Line Chart
 Trend of total installs over time, segmented by category.
 
 Highlight growth areas where installs > 20% month-over-month.
@@ -93,7 +101,7 @@ Dating → German
 
 Graph visible only between 6 PM – 9 PM IST.
 
-Task 5 – Bubble Chart
+#### Task 5 – Bubble Chart
 Bubble chart:
 
 X-axis: App Size (MB).
@@ -130,7 +138,7 @@ Dating → German
 
 Graph visible only between 5 PM – 7 PM IST.
 
-Task 6 – Stacked Area Chart
+#### Task 6 – Stacked Area Chart
 Stacked area chart: cumulative installs over time (per category).
 
 Filters:
@@ -157,7 +165,7 @@ Highlight: Increase color intensity when installs > 25% MoM.
 
 Graph visible only between 4 PM – 6 PM IST.
 
-🛠️ Tools & Technologies
+### 🛠️ Tools & Technologies
 Python (Pandas, Numpy, Regex for data cleaning)
 
 Plotly Express (interactive charts)
@@ -166,11 +174,10 @@ Jupyter Notebook
 
 Timezone Handling with pytz
 
-📸 Screenshots
+## 📸 Screenshots
 Output Charts:
-https://github.com/Aarti07-spec/DA-internship-NULLCLASS/tree/main/Charts
-
-🚀 How to Run Locally
+https://github.com/Aarti07-spec/Data-Analyst-Internship-NullClass/tree/main/Charts
+##### 🚀 How to Run Locally
 
 Clone the repo:
 
@@ -186,11 +193,11 @@ jupyter notebook
 
 Open any task notebook and run.
 
-📊 Results
+## 📊 Results
 Successfully implemented 6 advanced analytical tasks.
 
 Each chart respects filters, translations, and time-based display rules.
 
 Interactive dashboards ready for reporting & insights.
 
-✨ Submission: This repo is my final internship project submission.
+##### ✨ Submission: This repo is my final internship project submission.
