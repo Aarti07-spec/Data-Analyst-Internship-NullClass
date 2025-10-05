@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Play Store Review Analytics Dashboard</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Arial, sans-serif;
+        background-color: #121212;
+        color: #ffffff;
+        margin: 0;
+        padding: 0;
+      }
+      .header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        background-color: #1f1f1f;
+        box-shadow: 0 2px 6px rgba(255, 255, 255, 0.1);
+      }
+      .header img {
+        height: 50px;
+        margin: 0 15px;
+      }
+      h1 {
+        font-size: 26px;
+        font-weight: 600;
+        color: #00ffcc;
+      }
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 30px;
+      }
+      .chart-box {
+        background-color: #1e1e1e;
+        border: 2px solid #333;
+        border-radius: 12px;
+        width: 45%;
+        height: 450px;
+        margin: 15px;
+        overflow: hidden;
+        box-shadow: 0 0 10px rgba(0, 255, 255, 0.1);
+        transition: 0.3s;
+      }
+      .chart-box:hover {
+        border-color: #00ffcc;
+        transform: scale(1.02);
+      }
+      iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+      }
+      .chart-title {
+        text-align: center;
+        padding: 10px;
+        font-size: 18px;
+        color: #00ffcc;
+        font-weight: 500;
+        background-color: #222;
+        border-bottom: 1px solid #333;
+      }
+      footer {
+        text-align: center;
+        padding: 15px;
+        color: #aaa;
+        background-color: #1f1f1f;
+      }
+      @media (max-width: 1000px) {
+        .chart-box {
+          width: 90%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Logo_2013_Google.png/800px-Logo_2013_Google.png"
+        alt="Google Logo"
+      />
+      <h1>Google Play Store Review Analytics Dashboard</h1>
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/1024px-Google_Play_Store_badge_EN.svg.png"
+        alt="Play Store Logo"
+      />
+    </div>
+
+    <div class="container">
+      <div
+        class="chart-box"
+        onclick="openChartInNewTab('html_outputs/Task 1_Grouped_Bar.html')"
+      >
+        <div class="chart-title">📊 Task 1 – Grouped Bar Chart</div>
+        <iframe src="html_outputs/Task 1_Grouped_Bar.html"></iframe>
+      </div>
+
+      <div class="chart-box">
+        <div class="chart-title">🗺️ Task 2 – Choropleth Map</div>
+        <iframe src="html_outputs/Task 2 Choropleth map.html"></iframe>
+      </div>
+
+      <div class="chart-box">
+        <div class="chart-title">📈 Task 3 – Dual Axis Chart</div>
+        <iframe src="html_outputs/Task 3 Dual axis chart.html"></iframe>
+      </div>
+
+      <div class="chart-box">
+        <div class="chart-title">📅 Task 4 – Time Series Line Chart</div>
+        <iframe src="html_outputs/Task 4 Line_Chart.html"></iframe>
+      </div>
+
+      <div class="chart-box">
+        <div class="chart-title">⚪ Task 5 – Bubble Chart</div>
+        <iframe src="html_outputs/Task 5 Bubble_Chart.html"></iframe>
+      </div>
+
+      <div class="chart-box">
+        <div class="chart-title">🌈 Task 6 – Stacked Area Chart</div>
+        <iframe src="html_outputs/Task 6_Stacked Area Chart.html"></iframe>
+      </div>
+    </div>
+
+    <footer>
+      <p>
+        © 2025 Google Play Store Analytics Dashboard | Created for Internship
+        Submission
+      </p>
+    </footer>
+  </body>
+</html>
